@@ -1,0 +1,220 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    height: 100hv;
+    /* width: 1000px; */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+/* nav */
+
+.nav{
+    height: 50px;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: aliceblue;
+    background-color: rgb(124, 121, 121);
+}
+
+.nav-links{
+    gap: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a{color: rgb(255, 255, 255);
+text-decoration: none;
+}
+li{
+    font-size: small;
+    list-style-type: none;
+}
+
+.btn {
+    background-color: #1883c0; 
+    color: rgb(255, 255, 255);
+    border-color: #000000;
+border-style: solid;
+
+    transition-duration: 0.3s;
+    
+}
+
+.btn:hover {
+    border-color: #000000;
+f    background-color: #7c65ce;
+    border-style: solid;
+    }
+/* left side */
+    .leftWrapper{
+flex: 4;
+padding: 10px;
+display: flex;
+flex-wrap: wrap;
+flex-direction: column;
+    }
+/* usercard */
+.userWrapper{ 
+    border: 5px solid rgb(180, 177, 177);
+    background-color: rgb(60, 195, 219);
+    min-height:410px;
+    width: 610px; 
+    position:relative;
+
+}
+.userContainer{
+    min-height:250px;
+    width: 600px; 
+    position: relative;
+    top: 150px;
+    background-color: aliceblue;
+    padding: 20px;
+}
+Profile_name{position: absolute;}
+
+#map{
+    height: 20px;
+    }
+#gear{
+    height: 20px;
+    }
+.location{
+    top: 60px;
+    width: 100px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.user{
+    border-radius: 50%;
+    height:100px ;
+    width: auto;
+    position: absolute;
+    left: 10px;
+    top: 75px;
+    z-index: 1;
+} 
+.desc{
+    position: absolute;
+    top: 125px;
+}
+.edit{
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    top: 200px;
+}
+.profile_e{
+    color: blue;
+    text-decoration: underline;
+}
+/* education */
+.eduWrapper{border: 5px solid rgb(180, 177, 177);
+margin-top: 20px;
+min-height: 300px;
+position: relative;
+}
+.eduHead{
+    background-color: #000000;
+    color:white;
+    width: 100%;
+    padding-left: 30px;
+    position: absolute;
+
+}
+.edheading{position: absolute;
+top: 60px;    padding-left: 30px;}
+.eduDate{    padding-left: 30px;position: absolute;top: 125px;}
+.edup{    padding-left: 30px;position: absolute;top: 200px;}
+/* right side */
+.rightWrapper{
+    flex:1;
+width: 300px;
+height:auto;
+/* position: relative; */
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+gap: 20px;}
+
+.smallPic{
+    border-radius: 50%;
+    height: 50px;
+}
+.smallNames{}
+
+/* requests */
+.requestsWrapper{
+    position: relative;
+    width:200px ;
+    border: 4px solid rgb(180, 177, 177);
+}
+.requestsHead{background-color: #000000;
+    color:white;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    font-size: small;
+    min-height: 20px; 
+    /* position: absolute; */
+}
+.requestsNum{
+    height:15px ;
+    background-color: azure;
+    width: 15px;
+    color: #000000;
+    text-align: center;
+    border-radius: 50%;
+}
+.requests{display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+gap: 10px;}
+.reqans{display: inline-block;}
+.ansbtn{}
+
+/* connections */
+.connectsWrapper{
+    position: relative;
+    width:200px ;
+    border: 4px solid rgb(180, 177, 177);
+}
+.connectshead{ background-color: #000000;
+    color:white;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    font-size: medium;
+    min-height: 25px; }
+.connectsnum{
+    background-color: azure;
+    color: #000000;
+    text-align: center;
+    border-radius: 50%;
+    padding: 2px;
+}
+.connections{display:flex}
+.connectsFoot{position:absolute;
+    border: 4px solid rgb(180, 177, 177);
+    width: 105%;
+    color: blue;
+    text-decoration: underline;
+    top:230px;
+    left: -5px;
+    padding:0px;
+}
